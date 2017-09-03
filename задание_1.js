@@ -1,0 +1,4 @@
+<script> a=prompt('¬ведите число');
+b=prompt('¬ведите число');
+c=prompt('¬ведите число');
+Math.min(a,b,c);</sqript>
