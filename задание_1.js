@@ -1,12 +1,5 @@
-a = parseInt(prompt('Введите любое число от 100 до 999'));
-c=a-10;
-if (a<111) {c = a+10};
-
-b = parseInt(prompt('Введите любое число от 100 до 999'));
-d=b-10;
-if (b<111)
-  {d = b+10};
-
-
-console.log(c+" "+d)
-;
+var str1 = prompt('Введите любое число от 100 до 999');
+str1 = str1[0] + (Math.floor(Math.random() * 10)) + str1[2];
+var str2 = prompt('Введите любое число от 100 до 999');
+str2 = str2[0] + (Math.floor(Math.random() * 10)) + str2[2];
+alert( str1 + ' ' + str2);
